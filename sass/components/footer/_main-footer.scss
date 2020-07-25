@@ -1,0 +1,48 @@
+@import "./footer-address";
+@import "./_footer-social-list";
+@import "./_footer-form";
+
+
+.footer{
+
+    @media screen and(max-width: 1199px) {
+        text-align: center;
+        
+    }
+    
+
+    @media(min-width: 768px) {
+        
+    // display: flex;
+    // flex-wrap: wrap;
+    // margin-left: auto;
+    // margin-right: auto;
+    // width: 1600px;
+    // height: 252px;  
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+    
+    
+    background-color: $footerBgCol;
+
+    &-container {
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+        @media(min-width: 768px) {
+            // text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // align-items: center; 
+        // width: 1200px;  
+        }
+
+        @media(min-width: 1200px) {
+            display: flex;
+        }
+        
+    }
+}
