@@ -37,6 +37,7 @@
   padding: 20px;
   width: 100%;
   height: 90px;
+  transition: $cubicBezier;
 
   &:hover, &:focus {
       fill: $accentColor;
